@@ -10,7 +10,7 @@ class PersonalC extends Conexion
     }
 public function CrearPersonal()
 {
-    
+    //debe definir las funciones del modelo personal
 }
     	
 }
