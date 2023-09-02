@@ -25,14 +25,16 @@
             <div class="row">
                 <div class="col-md-6">
                     <h4>Complete todos los campos</h4>
+                    <form method="POST" action="../../Controller/administrador/ControladorPersonal.php">
                     <label>Documento:</label>
-                    <input type="number" class="form-control" id="reg_instru_docu" placeholder="Ingresar documento">
+                    <input type="number" name="txtdocumentoper" class="form-control" id="reg_instru_docu" placeholder="Ingresar documento">
                     <label>Nombre Completo:</label>
-                    <input type="text" class="form-control" id="reg_instru_nomb" placeholder="Ingresar nombre">
+                    <input type="text" name="txtnombreper"class="form-control" id="reg_instru_nomb" placeholder="Ingresar nombre">
                     <label>Cargo:</label>
-                    <input type="text" class="form-control" id="reg_instru_carg" placeholder="Ingresar cargo">
+                    <input type="text" name="txtcargoper" class="form-control" id="reg_instru_carg" placeholder="Ingresar cargo">
                     
                     <input type="submit" class="btn btn-success mt-3 mb-3" value="Registrar" id="reg_personal">
+                </form>
                 </div>
             </div>
         </div>
@@ -62,7 +64,7 @@
             <div class="modal-body">
                 <h3>Completar todos los campos</h3>
                 <div class="container">
-                    <form id="formulario_act_ins">
+                    <form id="formulario_act_ins" >
                         <label>Numero de documento</label>
                         <input type="number" id="edit_cedu_inst" class="form-control">
                         <label>Nombre</label>

@@ -5,7 +5,7 @@ class Conexion
   public $db;
   private $drive= "mysql";
   private $host = "localhost";
-  private $dbname = "senamateriales2023r";
+  private $dbname = "senamateriales2023";
   private $user = "root";
   private $password = "";
 
