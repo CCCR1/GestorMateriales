@@ -2,7 +2,7 @@
 
 include_once('Conexion.php');
 
-class FichaModel {
+class PersonalC extends Conexion {
 
     private $idFicha;
     private $numeroFicha;
