@@ -1,25 +1,33 @@
 <?php
 
-namespace App\Models;
+class FichaModel {
 
-use Illuminate\Database\Eloquent\Model;
+    private $idFicha;
+    private $numeroFicha;
+    private $reporte;
 
-class FichaModel extends Model
-{
-    protected $table = 'ficha';
-    protected $primaryKey = 'idFicha';
-    public $timestamps = false;
+    public function getIdFicha() {
+        return $this->idFicha;
+    }
 
-    protected $fillable = [
-        'numeroFicha',
-    ];
+    public function setIdFicha($idFicha) {
+        $this->idFicha = $idFicha;
+    }
 
-    protected $hidden = [
-        'idFicha',
-    ];
+    public function getNumeroFicha() {
+        return $this->numeroFicha;
+    }
 
-    public function reporte()
-    {
-        return $this->belongsTo(Reporte::class);
+    public function setNumeroFicha($numeroFicha) {
+        $this->numeroFicha = $numeroFicha;
+    }
+
+    public function getReporte() {
+        return $this->reporte;
+    }
+
+    public function setReporte($reporte) {
+        $this->reporte = $reporte;
     }
 }
+
