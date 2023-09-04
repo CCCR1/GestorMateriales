@@ -1,7 +1,8 @@
 <?php
 include_once('Conexion.php');
 
-class ProgramaModel {
+class PersonalC extends Conexion
+    {
 
     private $idPrograma;
     private $nombrePrograma;
