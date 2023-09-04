@@ -1,20 +1,24 @@
 <?php
 
-namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
+class ProgramaModel {
 
-class ProgramaModel extends Model
-{
-    protected $table = 'programa';
-    protected $primaryKey = 'idPrograma';
-    public $timestamps = false;
+    private $idPrograma;
+    private $nombrePrograma;
 
-    protected $fillable = [
-        'nombrePrograma',
-    ];
+    public function getIdPrograma() {
+        return $this->idPrograma;
+    }
 
-    protected $hidden = [
-        'idPrograma',
-    ];
+    public function setIdPrograma($idPrograma) {
+        $this->idPrograma = $idPrograma;
+    }
+
+    public function getNombrePrograma() {
+        return $this->nombrePrograma;
+    }
+
+    public function setNombrePrograma($nombrePrograma) {
+        $this->nombrePrograma = $nombrePrograma;
+    }
 }
