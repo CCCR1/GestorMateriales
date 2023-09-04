@@ -1,11 +1,7 @@
 <?php
 include_once('Conexion.php');
 
-class UsuarioModel {
-
-    private $idUsuario;
-    private $nombre;
-    private $contrasena;
+class 
 
     public function getIdUsuario() {
         return $this->idUsuario;
