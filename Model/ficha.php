@@ -4,10 +4,6 @@ include_once('Conexion.php');
 
 class PersonalC extends Conexion {
 
-    private $idFicha;
-    private $numeroFicha;
-    private $reporte;
-
     public function getIdFicha() {
         return $this->idFicha;
     }
