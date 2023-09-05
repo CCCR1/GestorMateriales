@@ -1,0 +1,16 @@
+header{
+    background-color:  rgb(57, 169, 0);
+}
+.dropdown-item{
+    font-size: 15px;
+}
+#info{
+    padding: 5%;
+}
+h3, #recam{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container{
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
