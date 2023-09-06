@@ -1,7 +1,7 @@
 <?php
 include_once('Conexion.php');
 
-class buscador_usuario extends Conexion
+class UsuarioC extends Conexion
 
     public function getIdUsuario() {
         return $this->idUsuario;
