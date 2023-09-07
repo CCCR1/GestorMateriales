@@ -1,7 +1,7 @@
 <?php
 include_once('Conexion.php');
 
-class UsuarioC extends Conexion
+class Usuarios extends Conexion
 
     public function getIdUsuario() {
         return $this->idUsuario;
