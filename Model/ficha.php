@@ -20,12 +20,3 @@ class PersonalC extends Conexion {
         $this->numeroFicha = $numeroFicha;
     }
 
-    public function getReporte() {
-        return $this->reporte;
-    }
-
-    public function setReporte($reporte) {
-        $this->reporte = $reporte;
-    }
-}
-
